@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz_title"> Want to opt for a Quiz! </string>
+    <string name="quiz_enter_name">Just enter ur name here..</string>
+    <string name="start">Lets Start!</string>
+
+
+    <string name="ques_one">What is splash screen in android?</string>
+    <string name="q1_option1">Initial activity of an application</string>
+    <string name="q1_option2">Initial service of an application</string>
+    <string name="q1_option3">Initial method of an application</string>
+    <string name="q1_option4">Initial screen of an application</string><!--correct-->
+    <string name="next_ques">Go to Next Question</string>
+
+    <string name="ques_two">How many applications are there in a given task in android?</string>
+    <string name="q2_option1">One</string>
+    <string name="q2_option2">Two</string>
+    <string name="q2_option3">Many</string><!--correct-->
+    <string name="q2_option4">Zero</string>
+
+    <string name="ques_three">What is an activity in Android?</string>
+    <string name="q3_option1">It performs actions on screen</string><!--correct-->
+    <string name="q3_option2">Manage application context</string>
+    <string name="q3_option3">Screen UI</string>
+    <string name="q3_option4">None of the above</string>
+
+    <string name="ques_four">What is log message in android?</string>
+    <string name="q4_option1">Used to debug the program</string><!--correct-->
+    <string name="q4_option2">Same as printf</string>
+    <string name="q4_option3">Same as Toast</string>
+    <string name="q4_option4">None of the above</string>
+
+    <string name="ques_five">What is the JSON exception in android?</string>
+    <string name="q5_option1">Json Exception</string><!--correct-->
+    <string name="q5_option2">Json not fount Exception</string>
+    <string name="q5_option3">Input not found Exception</string>
+    <string name="q5_option4">None of the above</string>
+
+    <string name="ques_six">How to kill an activity in Android?</string>
+    <string name="q6_option1">finish()</string>
+    <string name="q6_option2">finishActivity(int requestCode)</string>
+    <string name="q6_option3">Both of the above</string><!--correct-->
+    <string name="q6_option4">None of the above</string>
+
+    <string name="ques_seven">What is the application class in android?</string>
+    <string name="q7_option1">A class that can create only an object</string>
+    <string name="q7_option2">Anonymous class</string>
+    <string name="q7_option3">Java class</string>
+    <string name="q7_option4">Base class for all classes</string><!--correct-->
+
+    <string name="ques_eight">What is breakpoint in android?</string>
+    <string name="q8_option1">Breaks the application</string>
+    <string name="q8_option2">Breaks the development code</string>
+    <string name="q8_option3">Breaks the execution</string><!--correct-->
+    <string name="q8_option4">None of the above</string>
+
+    <string name="ques_nine">What is JNI in android?</string>
+    <string name="q9_option1">Java Network Interface</string>
+    <string name="q9_option2">Java Interface</string>
+    <string name="q9_option3">Image Editable Tool</string>
+    <string name="q9_option4">Java Native Interface</string><!--correct-->
+
+    <string name="ques_ten">What are the wake locks available in android?</string>
+    <string name="q10_option1">PARTIAL_WAKE_LOCK</string>
+    <string name="q10_option2">SCREEN_DIM_WAKE_LOCK</string>
+    <string name="q10_option3">SCREEN_BRIGHT_WAKE_LOCK</string>
+    <string name="q10_option4">FULL_WAKE_LOCK</string><!--correct-->
+    <string name="submit">Submit Quiz</string>
+</resources>

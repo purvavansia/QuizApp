@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textViewQues3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="@string/ques_three" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="50dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioAnswer1Q3"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_option1"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioAnswer2Q3"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_option2"
+                    android:textSize="20dp" />
+
+
+                <RadioButton
+                    android:id="@+id/radioAnswer4Q3"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_option3"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioAnswer3Q3"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_option4"
+                    android:textSize="20dp" />
+
+        </RadioGroup>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/ButtonNext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="@string/next_ques" />
+
+
+</LinearLayout>
